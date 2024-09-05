@@ -1,4 +1,4 @@
-package map_generator;
+package map_generator.tile;
 
 public class RoadTile implements Tile {
     @Override

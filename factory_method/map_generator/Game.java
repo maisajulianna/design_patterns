@@ -5,18 +5,18 @@ main method
 
 package map_generator;
 
-import java.util.Scanner;
+import map_generator.map.*;
 
-public abstract class Game {
-    public void play() {
-        Scanner scanner = new Scanner(System.in);
-        Map map;
-        do {
-            map = createMap();
-            // (room.enter();
-            System.out.println("Press enter to move to the next map ('q' to quit).");
-        } while (!scanner.nextLine().equals("q"));
+public class Game {
+    public static void main(String[] args) {
+
+        int rows = 10;
+        int columns = 15;
+
+        // Map map = new CityMap(rows, columns, "city");
+        Map map = new WildernessMap(rows, columns, "wilderness");
+
+        System.out.println("Map type: " + map.getType());
+        map.display();
     }
-
-    public abtract Map createMap();
 }

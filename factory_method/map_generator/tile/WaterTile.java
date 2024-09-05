@@ -1,13 +1,13 @@
-package map_generator;
+package map_generator.tile;
 
 public class WaterTile implements Tile {
     @Override
     public char getCharacter() {
-        return 'B';
+        return 'W';
     }
 
     @Override
     public String getType() {
-        return "building";
+        return "water";
     }
 }

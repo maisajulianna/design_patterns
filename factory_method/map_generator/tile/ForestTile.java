@@ -1,4 +1,4 @@
-package map_generator;
+package map_generator.tile;
 
 public class ForestTile implements Tile {
     @Override

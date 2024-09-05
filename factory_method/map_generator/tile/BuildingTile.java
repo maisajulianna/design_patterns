@@ -1,6 +1,6 @@
-package map_generator;
+package map_generator.tile;
 
-public class SwampTile implements Tile {
+public class BuildingTile implements Tile {
     @Override
     public char getCharacter() {
         return 'B';
