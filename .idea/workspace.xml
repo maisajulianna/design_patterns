@@ -7,17 +7,6 @@
     <list default="true" id="cafb5c50-aecd-4fba-a328-432ba1b765b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/BuildingTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/BuildingTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/CityMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/ForestTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/ForestTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/RoadTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/RoadTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/SwampTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/SwampTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/WaterTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/tile/WaterTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/WildernessMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/map/WildernessMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +37,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Game.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainPrinter.executor": "Run",
     "Application.Random.executor": "Run",
     "Application.random.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/maisa/Documents/aa-maisa/a-amk/suunnittelu/design-patterns (vesa)/design-patterns",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,7 +82,8 @@
       <workItem from="1724308157208" duration="1964000" />
       <workItem from="1724394572307" duration="6000000" />
       <workItem from="1724408070227" duration="6356000" />
-      <workItem from="1725013786714" duration="6263000" />
+      <workItem from="1725013786714" duration="11191000" />
+      <workItem from="1726125691359" duration="3885000" />
     </task>
     <servers />
   </component>
