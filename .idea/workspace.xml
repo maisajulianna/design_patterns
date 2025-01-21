@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cafb5c50-aecd-4fba-a328-432ba1b765b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composite/Organization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/ButtonA.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/ButtonA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/ButtonB.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/ButtonB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/Checkbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/CheckboxA.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/CheckboxA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/CheckboxB.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/CheckboxB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/TextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/TextFieldA.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/TextFieldA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract_factory/TextFieldB.java" beforeDir="false" afterPath="$PROJECT_DIR$/abstract_factory/ui/TextFieldB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory_method/map_generator/map/WildernessMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/map_generator/map/WildernessMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +44,7 @@
     "Application.Game.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainPrinter.executor": "Run",
+    "Application.Organization.executor": "Run",
     "Application.Random.executor": "Run",
     "Application.random.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -100,6 +92,7 @@
       <workItem from="1726125691359" duration="4355000" />
       <workItem from="1726727789780" duration="5074000" />
       <workItem from="1737396864634" duration="10592000" />
+      <workItem from="1737496360359" duration="5760000" />
     </task>
     <servers />
   </component>
