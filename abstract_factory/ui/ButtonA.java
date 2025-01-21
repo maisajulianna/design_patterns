@@ -1,4 +1,6 @@
-class ButtonA extends Button {
+package ui;
+
+public class ButtonA extends Button {
     public ButtonA(String text) {
         super(text);
     }
@@ -6,7 +8,7 @@ class ButtonA extends Button {
     @Override
     public void display() {
         System.out.println("------A------");
-        System.out.println("| " + text + " |");
+        System.out.println("|   " + text + "  |");
         System.out.println("-------------");
     }
 }

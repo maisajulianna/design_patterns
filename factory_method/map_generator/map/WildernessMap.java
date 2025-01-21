@@ -20,4 +20,20 @@ public class WildernessMap extends Map {
         Random random = new Random();
         return WILDERNESS_TILES[random.nextInt(WILDERNESS_TILES.length)];
     }
+
+
+    /*
+    // another way to choose the tiles
+
+    public Tile createTile() {
+    int randomInt = random.nextInt(3);
+    Tile tile = null;
+    switch (randomInt) {
+        case 0: tile = new RoadTile()
+            break;
+        case 1: tile = new ForestTile();
+            break;
+        case 2: tile = new BuildingTile();
+            break;
+     */
 }
