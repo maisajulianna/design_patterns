@@ -1,0 +1,28 @@
+
+guidelines:
+
+- design the weather station to run in its own thread
+so that it'll continuously update its data
+
+
+- the weather station should be able to register and remove observers
+- and notify them when there is a change in temperature
+
+each observer should be able to display a unique message when notified
+including the current temperature
+
+the constructor of the weather station should set an initial random temperature
+
+the weather stations' thread should run an eternal loop
+that periodically updates the temperature by a small increment or decrement (e.g. +/- 1 degree)
+set a random time interval between updates (e.g. 1-5- seconds)
+there should be maximum and minimum temperature values that the weather station cannot exceed
+
+
+
+write a main() method that creates a weather station and several observers
+
+the main method should not explicitly set the weather
+instead it should start the weather station thread, register observers, and let the simulation run for some time
+after that, it should remove one of the observers and let the simulation continue.
+the output should demonstrate that the removed oberver no longer receives notifications
