@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cafb5c50-aecd-4fba-a328-432ba1b765b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Observer/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/WeatherObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/WeatherObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/WeatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/WeatherStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/instructions" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/instructions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     "Application.ElementFactory.executor": "Run",
     "Application.Game.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainLogger.executor": "Run",
     "Application.MainObserver.executor": "Run",
     "Application.MainPrinter.executor": "Run",
     "Application.Organization.executor": "Run",
@@ -95,7 +92,7 @@
       <workItem from="1737396864634" duration="10592000" />
       <workItem from="1737496360359" duration="6187000" />
       <workItem from="1737840943472" duration="2426000" />
-      <workItem from="1738000357171" duration="7702000" />
+      <workItem from="1738000357171" duration="11332000" />
     </task>
     <servers />
   </component>
