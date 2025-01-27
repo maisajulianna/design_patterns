@@ -1,10 +1,12 @@
 public class WeatherObserver implements Observer {
-    // any variables here
+    private String text;
 
-    public WeatherObserver() {
+    public WeatherObserver(String text) {
+        this.text = text;
+    }
 
+    @Override
+    public void update(Double temperature) {
+        System.out.println(text + temperature + " °C");
     }
 }
-
-
-// https://github.com/vesavvo/design_patterns/blob/master/src/main/java/observer/checkboxes/view/ObservingCheckBox.java

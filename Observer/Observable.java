@@ -12,9 +12,9 @@ public abstract class Observable {
         observers.remove(observer);
     }
 
-    public void notifyObservers() {
+    public void notifyObservers(Double temperature) {
         for (Observer observer : observers) {
-            observer.update();
+            observer.update(temperature);
         }
     }
 }
