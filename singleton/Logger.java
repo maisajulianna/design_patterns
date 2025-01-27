@@ -39,7 +39,6 @@ public class Logger {
         } else {
             System.out.println("No writer initialized");
         }
-
     }
 
     public void close() {
