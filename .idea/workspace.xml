@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cafb5c50-aecd-4fba-a328-432ba1b765b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/EncryptedPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/EncryptedPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/MainPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/decorator/MainPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator/decorator.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1737496360359" duration="6187000" />
       <workItem from="1737840943472" duration="2426000" />
       <workItem from="1738000357171" duration="11656000" />
-      <workItem from="1738052539923" duration="17202000" />
+      <workItem from="1738052539923" duration="20288000" />
     </task>
     <servers />
   </component>

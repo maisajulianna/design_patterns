@@ -1,21 +1,21 @@
 public class MainPrinter {
     public static void main(String[] args) {
-        Printer printer;
 
         // basic printer print
-        printer = new BasicPrinter();
+        Printer printer = new BasicPrinter();
         printer.print("Hello World!");
         System.out.println();
 
-        // encrypted printer print
-        printer = new EncryptedPrinter(new BasicPrinter());
-        printer.print("Hello World!");
+        Printer printer2 = new EncryptedPrinter(new XMLPrinter(new BasicPrinter()));
+        printer2.print("Hello World!");
         System.out.println();
 
-        // print to file
-        printer = new FilePrinter(new BasicPrinter());
-        printer.print("Hello World!");
+        Printer printer3 = new XMLPrinter(new EncryptedPrinter(new BasicPrinter()));
+        printer3.print("Hello World!");
+        System.out.println();
+
+        Printer printer4 = new UppercasePrinter(new XMLPrinter(new BasicPrinter()));
+        printer4.print("Hello World!");
         System.out.println();
     }
-
 }
