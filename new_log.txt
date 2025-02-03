@@ -1,9 +1,0 @@
-Simulation started
-Processing data...
-Simulation finished
-Simulation started
-Processing data...
-Simulation finished
-Simulation started
-Processing data...
-Simulation finished

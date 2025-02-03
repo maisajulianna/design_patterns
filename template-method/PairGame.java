@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+// old game (draft)
+
 public class PairGame extends Game {
     private int pairsNum;
     private ArrayList<Integer> players = new ArrayList<>();
